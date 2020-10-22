@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var apiRoot = 'https://secure-escarpment-67159.herokuapp.com/v1/';
-  const trelloApiRoot = 'https://secure-escarpment-67159.herokuapp.com/v1/trello/';
+  var trelloApiRoot = 'https://secure-escarpment-67159.herokuapp.com/v1/trello/';
   // const apiRoot = 'http://localhost:8080/v1/';
   // const trelloApiRoot = 'http://localhost:8080/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
